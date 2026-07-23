@@ -22,9 +22,10 @@ public class InheritanceChecker {
         Square square = new Square();
 
         rectangle.calculatePerimeter();
-        rectangle.print();
+        rectangle.print(); // output -> I am a rectangle
 
         square.calculatePerimeter();
-        square.print();
+        square.print(); // output -> I am a rectangle (a method from superclass)
+        square.print("square"); // output -> I am a square (overloaded method frpm subclass)
     }
 }
