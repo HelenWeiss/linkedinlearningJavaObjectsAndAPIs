@@ -1,11 +1,13 @@
 package Inheritance;
 
+// subclass (child)
 public class Employee extends Person {
 
     private String employeeId;
     private String title;
 
     public Employee() {
+        super("John Doe"); //an explicit call to the superclass's constructor  must be 1st statement in the subclass
         System.out.println("In Employee default constructor");
     }
 

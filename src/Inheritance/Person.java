@@ -1,5 +1,6 @@
 package Inheritance;
 
+// superclass (parent)
 public class Person {
 
     private String name;
@@ -8,6 +9,10 @@ public class Person {
 
     public Person() {
         System.out.println("In Person default constructor");
+    }
+
+    public Person(String name) {
+        System.out.println("In Person 2nd constructor. Name is set");
     }
 
     public String setName(String name) { return name; }
