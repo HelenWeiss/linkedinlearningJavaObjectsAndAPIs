@@ -9,7 +9,7 @@ public class WeddingCake extends Cake {
         System.out.println("Cake{flavor='" + this.getFlavor() + "', price=" + super.getPrice() + "}");
     }
 
-    public int setTiers(int tiers) { return tiers; }
-    public void getTiers () { this.tiers = tiers; }
+    public int getTiers () { return tiers; }
+    public void setTiers(int tiers) { this.tiers = tiers; }
 
 }
