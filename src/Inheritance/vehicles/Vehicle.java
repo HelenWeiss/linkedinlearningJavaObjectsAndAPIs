@@ -1,0 +1,14 @@
+package Inheritance.vehicles;
+
+public class Vehicle {
+
+    private String color;
+    private int mileage;
+
+    public String getColor() { return color; }
+    public int getMileage() { return mileage; }
+
+    public void setColor(String color) { this.color = color; }
+    public void setMileage(int mileage) { this.mileage = mileage; }
+
+}
