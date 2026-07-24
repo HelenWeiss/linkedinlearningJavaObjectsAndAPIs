@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 
 // superclass (parent)
 public class Person {

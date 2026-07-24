@@ -1,4 +1,4 @@
-package Polymorphism.employee;
+package polymorphism.employee;
 
 public class Intern extends Employee {
 }

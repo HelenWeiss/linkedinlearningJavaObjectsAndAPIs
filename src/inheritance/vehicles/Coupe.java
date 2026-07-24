@@ -1,4 +1,4 @@
-package Inheritance.vehicles;
+package inheritance.vehicles;
 
 public class Coupe extends Car {
 

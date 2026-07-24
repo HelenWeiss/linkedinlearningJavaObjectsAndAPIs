@@ -1,4 +1,4 @@
-package Inheritance.bakery;
+package inheritance.bakery;
 
 public class BakeryCakes {
 

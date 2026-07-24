@@ -1,4 +1,4 @@
-package Polymorphism.employee;
+package polymorphism.employee;
 
 class EmployeeReport {
         private int numberOfManagers;

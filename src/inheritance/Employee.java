@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 
 // subclass (child)
 public class Employee extends Person {
