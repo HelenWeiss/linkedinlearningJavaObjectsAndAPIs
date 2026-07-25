@@ -6,4 +6,7 @@ public interface Product {
     String getName();
     void setName(String name);
 
+    default double getPrice(){return 50;}; // without keyword "default" a method must be implement in a class Book // default needs a body {}
+    default void setPrice(double price) {}; // default needs a body {}
+
 }

@@ -7,5 +7,8 @@ public class Library {
         //Product book = new Product(); // error, Product=interface, from interface it is impossible object creation
         Product book = new Book();
         book.setName("In the kitchen with H+ Sport");
+
+        Book book2 = new Book();
+        book2.getPrice();
     }
 }
