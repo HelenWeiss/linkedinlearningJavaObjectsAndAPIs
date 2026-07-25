@@ -7,7 +7,7 @@ public class Queues {
 
     public static void main(String[] args) {
 
-        // fruits will be added in right order: sout [apple, lemon, banana, orange]
+        // fruits will be added in right order: [apple, lemon, banana, orange]
         Queue fruits = new LinkedList();
         fruits.add("apple");
         fruits.add("lemon");

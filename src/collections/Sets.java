@@ -7,7 +7,7 @@ public class Sets {
 
     public static void main(String[] args) {
 
-        // fruits will be added in uncontrolled order: sout [banana, apple, lemon]
+        // fruits will be added in uncontrolled order: [banana, apple, lemon]
         Set fruits = new HashSet();
         fruits.add("apple");
         fruits.add("banana");
