@@ -21,12 +21,8 @@ public class Book implements Product {
     public void setIsbn(String isbn) { this.isbn = isbn; }
 
     @Override
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name; }
 
     @Override
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void setName(String name) { this.name = name; }
 }
