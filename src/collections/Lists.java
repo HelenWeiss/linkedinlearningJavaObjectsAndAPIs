@@ -7,7 +7,7 @@ public class Lists {
 
     public static void main(String[] args) {
 
-        // fruits will be added in right order: sout [banana, apple, lemon]
+        // fruits will be added in right order: [apple, lemon, banana, orange]
         List fruits = new ArrayList();
         fruits.add("apple");
         fruits.add("lemon");
