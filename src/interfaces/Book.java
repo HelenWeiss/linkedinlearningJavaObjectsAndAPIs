@@ -12,6 +12,12 @@ public class Book implements Product {
     private int pages;
     private String isbn;
 
+    @Override
+    public String getName() { return name; }
+
+    @Override
+    public void setName(String name) { this.name = name; }
+
     public String getAuthor() { return author; }
     public int getPages() { return pages; }
     public String getIsbn() { return isbn; }
@@ -20,9 +26,4 @@ public class Book implements Product {
     public void setPages(int pages) { this.pages = pages; }
     public void setIsbn(String isbn) { this.isbn = isbn; }
 
-    @Override
-    public String getName() { return name; }
-
-    @Override
-    public void setName(String name) { this.name = name; }
 }
