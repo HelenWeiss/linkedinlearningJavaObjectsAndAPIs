@@ -1,4 +1,6 @@
-package abstraction;
+package abstraction.instruments;
+
+import abstraction.instruments.Instrument;
 
 public class Violin extends Instrument {
 

@@ -1,4 +1,6 @@
-package polymorphism;
+package polymorphism.animals;
+
+import polymorphism.animals.Animal;
 
 public class Cat extends Animal {
 

@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.book;
 
 // class can extend only 1 class and implement multiple interfaces
 // public class ElectronicBook implements Product, DigitalFile {...}

@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.animals;
 
 public class Animal {
 

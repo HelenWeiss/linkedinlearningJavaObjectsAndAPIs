@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.book;
 
 public class Library {
 

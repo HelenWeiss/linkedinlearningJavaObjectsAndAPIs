@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction.instruments;
 
 public abstract class Instrument {
 

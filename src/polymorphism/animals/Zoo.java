@@ -1,4 +1,8 @@
-package polymorphism;
+package polymorphism.animals;
+
+import polymorphism.animals.Animal;
+import polymorphism.animals.Cat;
+import polymorphism.animals.Dog;
 
 public class Zoo {
 

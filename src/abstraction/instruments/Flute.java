@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction.instruments;
 
 public class Flute extends Instrument {
 
